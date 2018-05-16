@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Reflection;
+using System.Data.SQLite;
 
 namespace accessConnection
 {
@@ -72,6 +73,32 @@ namespace accessConnection
             {
                 MessageBox.Show(ae.Message);
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            SQLiteConnection.CreateFile("MyDatabase.sqlite");
+            SQLiteConnection sqlConnection = new SQLiteConnection("Data Source=MyDatabase.sqlite;Version=3;");
+            sqlConnection.Open();
+            string sql = "create table highscores (name varchar(20), score int)";
+            SQLiteCommand command = new SQLiteCommand(sql, sqlConnection);
+            command.ExecuteNonQuery();
+
+            string sql1 = "insert into highscores (name, score) values ('Me', 3000)";
+            SQLiteCommand command1 = new SQLiteCommand(sql1, sqlConnection);
+            command1.ExecuteNonQuery();
+
+            string sql2 = "insert into highscores (name, score) values ('Myself', 6000)";
+            command1 = new SQLiteCommand(sql2, sqlConnection);
+            command1.ExecuteNonQuery();
+
+            string  sql3 = "insert into highscores (name, score) values ('And I', 9001)";
+            command1 = new SQLiteCommand(sql3, sqlConnection);
+            command1.ExecuteNonQuery();
+
+            sqlConnection.Close();
+            MessageBox.Show("SQLite测试成功");
+
         }
     }
 }
