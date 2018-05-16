@@ -100,5 +100,28 @@ namespace accessConnection
             MessageBox.Show("SQLite测试成功");
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            SQLiteConnection sqlConnection = new SQLiteConnection("Data Source=MyDatabase.sqlite;Version=3;");
+            string sql = "select * from highscores";
+            SQLiteCommand sqlCommand = new SQLiteCommand(sql,sqlConnection);
+            SQLiteDataReader  dt;
+            sqlConnection.Open();
+            dt = sqlCommand.ExecuteReader();
+            DataTable dataTable = new DataTable();
+            dataTable.Columns.Add(dt.GetName(0));
+            dataTable.Columns.Add(dt.GetName(1));
+            int i = 0;
+            
+            while (dt.Read())
+            {
+                int j = 0;
+                dataTable.Rows.Add();
+                dataTable.Rows[i][j] = dt.GetValue(0);
+                dataTable.Rows[i][j + 1] = dt.GetValue(1);                
+            }
+            dataGridView1.DataSource = dataTable;
+        }
     }
 }
