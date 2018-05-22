@@ -19,7 +19,7 @@ namespace accessConnection
             ToolStripDropDownMenu seccondMenu = new ToolStripDropDownMenu();
             seccondMenu.Name = "seccond菜单1";
             seccondMenu.Text = "seccond菜单1";
-            seccondMenu.Items.Add
+            
         }
 
         private void menu_click(object senders,EventArgs e)
