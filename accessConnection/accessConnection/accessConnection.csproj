@@ -64,6 +64,7 @@
     <Compile Include="initializeMenuStrip.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadXML.cs" />
     <EmbeddedResource Include="chidren1.resx">
       <DependentUpon>chidren1.cs</DependentUpon>
     </EmbeddedResource>
