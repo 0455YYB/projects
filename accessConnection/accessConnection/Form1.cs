@@ -123,5 +123,21 @@ namespace accessConnection
             }
             dataGridView1.DataSource = dataTable;
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Person person = new Person();
+            string xmlFileName = "\\config.xml";
+            person= ReadXML.getPerson(person,xmlFileName);
+            DataTable dataTable = new DataTable();
+            dataTable.Columns.Add("person");
+            dataTable.Columns.Add("age");
+            dataTable.Columns.Add("email");
+            dataTable.Rows.Add();
+            dataTable.Rows[0][0] = person.name;
+            dataTable.Rows[0][1] = person.age;
+            dataTable.Rows[0][2] = person.email;
+            dataGridView1.DataSource = dataTable;
+        }
     }
 }

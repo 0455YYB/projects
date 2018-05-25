@@ -26,5 +26,27 @@ namespace accessConnection
             Console.WriteLine("姓名"+personName+"年龄"+age+"邮箱"+email);
            
         }
+
+        public static Person getPerson(Person p,string xmlFileName)
+        {
+            
+            XmlDocument xmlDocument = new XmlDocument();
+            xmlDocument.Load(System.Environment.CurrentDirectory + xmlFileName);
+            XmlElement xmlElement = xmlDocument.DocumentElement;
+            XmlNodeList xmlNodeList = xmlElement.GetElementsByTagName("person");
+            p.name = ((XmlElement)xmlNodeList[0]).GetAttribute("name");
+            XmlNodeList xmlNodeList1 = xmlElement.GetElementsByTagName("age");
+            p.age = xmlNodeList1[0].InnerText;
+            XmlNodeList xmlNodeListEmail = xmlElement.GetElementsByTagName("email");
+            p.email = xmlNodeListEmail[0].InnerText;
+            return p;
+        }
+    }
+
+    class Person
+    {
+        public string name;
+        public string age;
+        public string email;
     }
 }
