@@ -12,7 +12,8 @@ namespace RadioPlay
         {
             XmlDocument xmlDocument = new XmlDocument();
             xmlDocument.Load(fileName);
-            XmlElement xmlElement=xmlDocument.GET
+            var root = xmlDocument.DocumentElement;
+
         }
 
         public void CreateXmlNode(XmlNode xn)
