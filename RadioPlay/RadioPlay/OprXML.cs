@@ -3,11 +3,35 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Xml;
+using System.IO;
 
 namespace RadioPlay
 {
     class OprXML
     {
+        XmlDocument xmlDoc = new XmlDocument();
+       
+        public XmlDocument LoadConfig()
+        {
+            try
+            {
+                if (System.IO.File.Exists(System.Environment.CurrentDirectory + "\\config1.xml"))
+                {
+                    xmlDoc.Load(System.Environment.CurrentDirectory + "\\config1.xml");
+                    
+                }
+                else
+                {
+                    System.Windows.Forms.MessageBox.Show("缺失配置文件，请联系管理员"); 
+                }
+            }
+            catch(Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show(ex.Message);
+            }
+            return xmlDoc;
+
+        }
         public void CreateXML(string fileName)
         {
             try
@@ -50,7 +74,10 @@ namespace RadioPlay
 
         public void CreateXmlNode(XmlNode xn)
         {
-
+            xn.title = "dllClassName";
+            xn.text = "CreateMenuStrip";
+            XmlDocument xmlDocument = new XmlDocument();
+            
         }
 
         public void UpdateXmlNode(XmlNode xn)
