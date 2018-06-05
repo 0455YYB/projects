@@ -17,8 +17,7 @@ namespace RadioPlay
             {
                 if (System.IO.File.Exists(System.Environment.CurrentDirectory + "\\config1.xml"))
                 {
-                    xmlDoc.Load(System.Environment.CurrentDirectory + "\\config1.xml");
-                    
+                    xmlDoc.Load(System.Environment.CurrentDirectory + "\\config1.xml");                   
                 }
                 else
                 {

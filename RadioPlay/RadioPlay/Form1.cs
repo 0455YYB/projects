@@ -15,6 +15,7 @@ namespace RadioPlay
         public Form1()
         {
             InitializeComponent();
+            this.IsMdiContainer = true;
             
         }
 
@@ -25,8 +26,10 @@ namespace RadioPlay
         {
             ChidForm chidForm = new ChidForm();
             chidForm.Owner = this;
+            chidForm.MdiParent = this;
+            chidForm.Parent = groupBox2;
             chidForm.Show();
-            this.Hide();
+            //this.Hide();
         }
 
         private void Save_Click(object sender, EventArgs e)

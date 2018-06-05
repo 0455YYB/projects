@@ -64,7 +64,7 @@
             this.groupBox1.Controls.Add(this.Time);
             this.groupBox1.Controls.Add(this.dateTimePicker1);
             this.groupBox1.Font = new System.Drawing.Font("宋体", 14F);
-            this.groupBox1.Location = new System.Drawing.Point(200, 12);
+            this.groupBox1.Location = new System.Drawing.Point(519, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(770, 468);
             this.groupBox1.TabIndex = 1;
@@ -186,7 +186,7 @@
             this.groupBox2.Font = new System.Drawing.Font("宋体", 12F);
             this.groupBox2.Location = new System.Drawing.Point(13, 13);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(181, 467);
+            this.groupBox2.Size = new System.Drawing.Size(500, 467);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "历史字幕";
@@ -195,7 +195,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(980, 492);
+            this.ClientSize = new System.Drawing.Size(1294, 494);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
