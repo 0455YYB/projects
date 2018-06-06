@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,39 +53,12 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "新增员工信息";
             // 
-            // label1
+            // textBox3
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("宋体", 11F);
-            this.label1.Location = new System.Drawing.Point(43, 38);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(37, 15);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "编号";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(84, 35);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 21);
-            this.textBox1.TabIndex = 1;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("宋体", 11F);
-            this.label2.Location = new System.Drawing.Point(275, 38);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(37, 15);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "姓名";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(315, 33);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 21);
-            this.textBox2.TabIndex = 3;
+            this.textBox3.Location = new System.Drawing.Point(606, 35);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 21);
+            this.textBox3.TabIndex = 5;
             // 
             // label3
             // 
@@ -97,12 +70,39 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "身份证号";
             // 
-            // textBox3
+            // textBox2
             // 
-            this.textBox3.Location = new System.Drawing.Point(606, 35);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 21);
-            this.textBox3.TabIndex = 5;
+            this.textBox2.Location = new System.Drawing.Point(315, 33);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 21);
+            this.textBox2.TabIndex = 3;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("宋体", 11F);
+            this.label2.Location = new System.Drawing.Point(275, 38);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(37, 15);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "姓名";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(84, 35);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 21);
+            this.textBox1.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("宋体", 11F);
+            this.label1.Location = new System.Drawing.Point(43, 38);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(37, 15);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "编号";
             // 
             // Form1
             // 
