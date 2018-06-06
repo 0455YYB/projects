@@ -35,8 +35,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
             this.button1 = new System.Windows.Forms.Button();
             this.textBox4 = new System.Windows.Forms.TextBox();
+=======
+>>>>>>> 5b509ca84de2a8a476c19db3e7eb2a96409875dd
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,29 +64,47 @@
             // 
             // textBox3
             // 
+<<<<<<< HEAD
             this.textBox3.Location = new System.Drawing.Point(808, 44);
             this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(132, 25);
+=======
+            this.textBox3.Location = new System.Drawing.Point(606, 35);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 21);
+>>>>>>> 5b509ca84de2a8a476c19db3e7eb2a96409875dd
             this.textBox3.TabIndex = 5;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("宋体", 11F);
+<<<<<<< HEAD
             this.label3.Location = new System.Drawing.Point(711, 48);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(85, 19);
+=======
+            this.label3.Location = new System.Drawing.Point(533, 38);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(67, 15);
+>>>>>>> 5b509ca84de2a8a476c19db3e7eb2a96409875dd
             this.label3.TabIndex = 4;
             this.label3.Text = "身份证号";
             // 
             // textBox2
             // 
+<<<<<<< HEAD
             this.textBox2.Location = new System.Drawing.Point(420, 41);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(132, 25);
+=======
+            this.textBox2.Location = new System.Drawing.Point(315, 33);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 21);
+>>>>>>> 5b509ca84de2a8a476c19db3e7eb2a96409875dd
             this.textBox2.TabIndex = 3;
             // 
             // label2
@@ -98,6 +119,7 @@
             this.label2.Text = "姓名";
             // 
             // textBox1
+<<<<<<< HEAD
             // 
             this.textBox1.Location = new System.Drawing.Point(112, 44);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -132,6 +154,23 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 25);
             this.textBox4.TabIndex = 7;
+=======
+            // 
+            this.textBox1.Location = new System.Drawing.Point(84, 35);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 21);
+            this.textBox1.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("宋体", 11F);
+            this.label1.Location = new System.Drawing.Point(43, 38);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(37, 15);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "编号";
+>>>>>>> 5b509ca84de2a8a476c19db3e7eb2a96409875dd
             // 
             // Form1
             // 

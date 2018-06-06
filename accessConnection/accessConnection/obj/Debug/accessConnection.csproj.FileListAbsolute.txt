@@ -28,6 +28,7 @@ E:\GitHub\projects\accessConnection\accessConnection\bin\Debug\System.Data.SQLit
 E:\GitHub\projects\accessConnection\accessConnection\bin\Debug\System.Data.SQLite.pdb
 E:\GitHub\projects\accessConnection\accessConnection\bin\Debug\System.Data.SQLite.dll.config
 E:\GitHub\projects\accessConnection\accessConnection\obj\Debug\accessConnection.csproj.CopyComplete
+<<<<<<< HEAD
 D:\Github\project\projects\accessConnection\accessConnection\bin\Debug\HRP.accdb
 D:\Github\project\projects\accessConnection\accessConnection\bin\Debug\accessConnection.exe.config
 D:\Github\project\projects\accessConnection\accessConnection\bin\Debug\accessConnection.exe
@@ -46,3 +47,10 @@ D:\Github\project\projects\accessConnection\accessConnection\obj\Debug\accessCon
 D:\Github\project\projects\accessConnection\accessConnection\obj\Debug\accessConnection.csproj.CopyComplete
 D:\Github\project\projects\accessConnection\accessConnection\obj\Debug\accessConnection.exe
 D:\Github\project\projects\accessConnection\accessConnection\obj\Debug\accessConnection.pdb
+=======
+E:\GitHub\projects\accessConnection\accessConnection\bin\Debug\Interop.WMPLib.dll
+E:\GitHub\projects\accessConnection\accessConnection\bin\Debug\AxInterop.WMPLib.dll
+E:\GitHub\projects\accessConnection\accessConnection\obj\Debug\Interop.WMPLib.dll
+E:\GitHub\projects\accessConnection\accessConnection\obj\Debug\AxInterop.WMPLib.dll
+E:\GitHub\projects\accessConnection\accessConnection\obj\Debug\accessConnection.csproj.ResolveComReference.cache
+>>>>>>> 5b509ca84de2a8a476c19db3e7eb2a96409875dd

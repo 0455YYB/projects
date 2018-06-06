@@ -7,6 +7,7 @@ E:\VS2017projects\test1\test1\obj\Debug\test1.csproj.GenerateResource.cache
 E:\VS2017projects\test1\test1\obj\Debug\test1.csproj.CoreCompileInputs.cache
 E:\VS2017projects\test1\test1\obj\Debug\test1.dll
 E:\VS2017projects\test1\test1\obj\Debug\test1.pdb
+<<<<<<< HEAD
 D:\Github\project\projects\test1\test1\bin\Debug\test1.dll
 D:\Github\project\projects\test1\test1\bin\Debug\test1.pdb
 D:\Github\project\projects\test1\test1\obj\Debug\test1.csprojResolveAssemblyReference.cache
@@ -16,3 +17,13 @@ D:\Github\project\projects\test1\test1\obj\Debug\test1.csproj.GenerateResource.c
 D:\Github\project\projects\test1\test1\obj\Debug\test1.csproj.CoreCompileInputs.cache
 D:\Github\project\projects\test1\test1\obj\Debug\test1.dll
 D:\Github\project\projects\test1\test1\obj\Debug\test1.pdb
+=======
+E:\GitHub\projects\test1\test1\obj\Debug\test1.Form1.resources
+E:\GitHub\projects\test1\test1\obj\Debug\test1.Properties.Resources.resources
+E:\GitHub\projects\test1\test1\obj\Debug\test1.csproj.GenerateResource.cache
+E:\GitHub\projects\test1\test1\obj\Debug\test1.csproj.CoreCompileInputs.cache
+E:\GitHub\projects\test1\test1\obj\Debug\test1.dll
+E:\GitHub\projects\test1\test1\obj\Debug\test1.pdb
+E:\GitHub\projects\test1\test1\bin\Debug\test1.dll
+E:\GitHub\projects\test1\test1\bin\Debug\test1.pdb
+>>>>>>> 5b509ca84de2a8a476c19db3e7eb2a96409875dd
