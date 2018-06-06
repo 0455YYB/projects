@@ -28,3 +28,8 @@ E:\GitHub\projects\accessConnection\accessConnection\bin\Debug\System.Data.SQLit
 E:\GitHub\projects\accessConnection\accessConnection\bin\Debug\System.Data.SQLite.pdb
 E:\GitHub\projects\accessConnection\accessConnection\bin\Debug\System.Data.SQLite.dll.config
 E:\GitHub\projects\accessConnection\accessConnection\obj\Debug\accessConnection.csproj.CopyComplete
+E:\GitHub\projects\accessConnection\accessConnection\bin\Debug\Interop.WMPLib.dll
+E:\GitHub\projects\accessConnection\accessConnection\bin\Debug\AxInterop.WMPLib.dll
+E:\GitHub\projects\accessConnection\accessConnection\obj\Debug\Interop.WMPLib.dll
+E:\GitHub\projects\accessConnection\accessConnection\obj\Debug\AxInterop.WMPLib.dll
+E:\GitHub\projects\accessConnection\accessConnection\obj\Debug\accessConnection.csproj.ResolveComReference.cache
