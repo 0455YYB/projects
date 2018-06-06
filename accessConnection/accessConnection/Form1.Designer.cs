@@ -74,7 +74,7 @@
             this.第一个ToolStripMenuItem.Name = "第一个ToolStripMenuItem";
             this.第一个ToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
             this.第一个ToolStripMenuItem.Text = "第一个";
-            this.第一个ToolStripMenuItem.Click += new System.EventHandler(this.第一个ToolStripMenuItem_Click);
+            
             // 
             // menuStrip2
             // 

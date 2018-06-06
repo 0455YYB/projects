@@ -17,12 +17,6 @@ namespace test1
             InitializeComponent();
         }
 
-<<<<<<< HEAD
-        private void button1_Click(object sender, EventArgs e)
-        {
-            string appPath = System.Environment.CurrentDirectory;
-            textBox4.Text = appPath;
-=======
         public static Form1 CreateInstance()
         {
             if(form==null)
@@ -31,7 +25,11 @@ namespace test1
                 return form;
             }
             return form;
->>>>>>> 5b509ca84de2a8a476c19db3e7eb2a96409875dd
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

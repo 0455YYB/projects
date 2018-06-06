@@ -54,3 +54,4 @@ E:\GitHub\projects\accessConnection\accessConnection\obj\Debug\Interop.WMPLib.dl
 E:\GitHub\projects\accessConnection\accessConnection\obj\Debug\AxInterop.WMPLib.dll
 E:\GitHub\projects\accessConnection\accessConnection\obj\Debug\accessConnection.csproj.ResolveComReference.cache
 >>>>>>> 5b509ca84de2a8a476c19db3e7eb2a96409875dd
+D:\Github\project\projects\accessConnection\accessConnection\obj\Debug\accessConnection.csprojResolveAssemblyReference.cache
