@@ -34,10 +34,15 @@ namespace accessConnection
                 OleDbConnection accconnection = new OleDbConnection(strConnectionString);
                 accconnection.Open();
                 MessageBox.Show("连接成功");
+                accconnection.Close();
             }
             catch(Exception cone)
             {
                 MessageBox.Show(cone.Message);
+            }
+            finally
+            {
+
             }
             
             

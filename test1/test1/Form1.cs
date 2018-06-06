@@ -15,5 +15,11 @@ namespace test1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string appPath = System.Environment.CurrentDirectory;
+            textBox4.Text = appPath;
+        }
     }
 }
