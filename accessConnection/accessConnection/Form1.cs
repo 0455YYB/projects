@@ -17,6 +17,7 @@ namespace accessConnection
         public Form1()
         {
             InitializeComponent();
+            this.第一个ToolStripMenuItem.Click += new System.EventHandler(第一个ToolStripMenuItem_Click(MenuStrip, menuStrip1));
         }
 
         string accessdir = System.Environment.CurrentDirectory;
@@ -34,10 +35,15 @@ namespace accessConnection
                 OleDbConnection accconnection = new OleDbConnection(strConnectionString);
                 accconnection.Open();
                 MessageBox.Show("连接成功");
+                accconnection.Close();
             }
             catch(Exception cone)
             {
                 MessageBox.Show(cone.Message);
+            }
+            finally
+            {
+
             }
             
             
@@ -48,8 +54,9 @@ namespace accessConnection
         {
             
         }
+        
 
-        private void 第一个ToolStripMenuItem_Click(object sender, EventArgs e)
+        private void 第一个ToolStripMenuItem_Click(MenuStrip item)
         {
             Assembly objasm = Assembly.LoadFrom(accessdir+"\\test1.dll");
             try
@@ -61,12 +68,13 @@ namespace accessConnection
                 }
                 else
                 {
-                    Form obj = objasm.CreateInstance("test1.Form1") as Form;
-                    if (obj is null)
+                    Object objTest = objasm.CreateInstance("Form1");
+                    if (objTest == null)
                     {
-                        MessageBox.Show("创建窗口失败，无法初始化类");
-                    }
-                    obj.Show();
+                        Type type = objTest.GetType();
+                        MethodInfo methodInfo = type.GetMethod("CreateInstance()");
+                         methodInfo.Invoke(objTest,new object[] {item});
+                    }                            
                 }
             }
             catch (Exception ae)

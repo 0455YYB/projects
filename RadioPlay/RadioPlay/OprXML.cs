@@ -45,6 +45,7 @@ namespace RadioPlay
                     XmlElement rootNoe = xmlDocument.CreateElement("dllCofig");
                     xmlDocument.AppendChild(rootNoe);
                     XmlElement dllName = xmlDocument.CreateElement("dllName");
+                    dllName.SetAttribute("modleName","第一个模块");
                     dllName.InnerText = "radioPlay.dll";
                     rootNoe.AppendChild(dllName);
                     xmlDocument.Save("config1.xml");

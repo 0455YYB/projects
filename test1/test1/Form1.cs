@@ -26,5 +26,10 @@ namespace test1
             }
             return form;
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
