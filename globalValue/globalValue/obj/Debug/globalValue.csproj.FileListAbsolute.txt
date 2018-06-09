@@ -1,6 +1,0 @@
-E:\GitHub\projects\globalValue\globalValue\bin\Debug\globalValue.dll
-E:\GitHub\projects\globalValue\globalValue\bin\Debug\globalValue.pdb
-E:\GitHub\projects\globalValue\globalValue\obj\Debug\globalValue.csproj.CoreCompileInputs.cache
-E:\GitHub\projects\globalValue\globalValue\obj\Debug\globalValue.dll
-E:\GitHub\projects\globalValue\globalValue\obj\Debug\globalValue.pdb
-E:\GitHub\projects\globalValue\globalValue\obj\Debug\globalValue.csprojResolveAssemblyReference.cache
