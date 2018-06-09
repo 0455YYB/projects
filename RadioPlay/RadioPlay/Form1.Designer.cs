@@ -31,12 +31,6 @@
             this.components = new System.ComponentModel.Container();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.Clear = new System.Windows.Forms.Button();
-            this.Show_but = new System.Windows.Forms.Button();
-            this.Delete = new System.Windows.Forms.Button();
-            this.Update = new System.Windows.Forms.Button();
-            this.Save = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.Color_back = new System.Windows.Forms.Label();
             this.Color_font = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -45,7 +39,13 @@
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.colorDialog2 = new System.Windows.Forms.ColorDialog();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.Save = new System.Windows.Forms.Button();
+            this.Update = new System.Windows.Forms.Button();
+            this.Delete = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.Show_but = new System.Windows.Forms.Button();
+            this.Clear = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,62 +70,6 @@
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "字幕设置";
-            // 
-            // Clear
-            // 
-            this.Clear.Location = new System.Drawing.Point(263, 416);
-            this.Clear.Name = "Clear";
-            this.Clear.Size = new System.Drawing.Size(92, 46);
-            this.Clear.TabIndex = 11;
-            this.Clear.Text = "清 空";
-            this.Clear.UseVisualStyleBackColor = true;
-            // 
-            // Show_but
-            // 
-            this.Show_but.Location = new System.Drawing.Point(486, 416);
-            this.Show_but.Name = "Show_but";
-            this.Show_but.Size = new System.Drawing.Size(92, 46);
-            this.Show_but.TabIndex = 10;
-            this.Show_but.Text = "展 示";
-            this.Show_but.UseVisualStyleBackColor = true;
-            this.Show_but.Click += new System.EventHandler(this.Show_but_Click);
-            // 
-            // Delete
-            // 
-            this.Delete.Location = new System.Drawing.Point(374, 416);
-            this.Delete.Name = "Delete";
-            this.Delete.Size = new System.Drawing.Size(92, 46);
-            this.Delete.TabIndex = 9;
-            this.Delete.Text = "删 除";
-            this.Delete.UseVisualStyleBackColor = true;
-            // 
-            // Update
-            // 
-            this.Update.Location = new System.Drawing.Point(153, 416);
-            this.Update.Name = "Update";
-            this.Update.Size = new System.Drawing.Size(92, 46);
-            this.Update.TabIndex = 8;
-            this.Update.Text = "修 改";
-            this.Update.UseVisualStyleBackColor = true;
-            // 
-            // Save
-            // 
-            this.Save.Location = new System.Drawing.Point(45, 416);
-            this.Save.Name = "Save";
-            this.Save.Size = new System.Drawing.Size(92, 46);
-            this.Save.TabIndex = 7;
-            this.Save.Text = "保 存";
-            this.Save.UseVisualStyleBackColor = true;
-            this.Save.Click += new System.EventHandler(this.Save_Click);
-            // 
-            // textBox2
-            // 
-            this.textBox2.ForeColor = System.Drawing.Color.Crimson;
-            this.textBox2.Location = new System.Drawing.Point(45, 168);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(680, 237);
-            this.textBox2.TabIndex = 6;
             // 
             // Color_back
             // 
@@ -181,6 +125,42 @@
             // 
             this.colorDialog2.FullOpen = true;
             // 
+            // textBox2
+            // 
+            this.textBox2.ForeColor = System.Drawing.Color.Crimson;
+            this.textBox2.Location = new System.Drawing.Point(45, 168);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(680, 237);
+            this.textBox2.TabIndex = 6;
+            // 
+            // Save
+            // 
+            this.Save.Location = new System.Drawing.Point(45, 416);
+            this.Save.Name = "Save";
+            this.Save.Size = new System.Drawing.Size(92, 46);
+            this.Save.TabIndex = 7;
+            this.Save.Text = "保 存";
+            this.Save.UseVisualStyleBackColor = true;
+            // 
+            // Update
+            // 
+            this.Update.Location = new System.Drawing.Point(153, 416);
+            this.Update.Name = "Update";
+            this.Update.Size = new System.Drawing.Size(92, 46);
+            this.Update.TabIndex = 8;
+            this.Update.Text = "修 改";
+            this.Update.UseVisualStyleBackColor = true;
+            // 
+            // Delete
+            // 
+            this.Delete.Location = new System.Drawing.Point(374, 416);
+            this.Delete.Name = "Delete";
+            this.Delete.Size = new System.Drawing.Size(92, 46);
+            this.Delete.TabIndex = 9;
+            this.Delete.Text = "删 除";
+            this.Delete.UseVisualStyleBackColor = true;
+            // 
             // groupBox2
             // 
             this.groupBox2.Font = new System.Drawing.Font("宋体", 12F);
@@ -190,6 +170,25 @@
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "历史字幕";
+            // 
+            // Show_but
+            // 
+            this.Show_but.Location = new System.Drawing.Point(486, 416);
+            this.Show_but.Name = "Show_but";
+            this.Show_but.Size = new System.Drawing.Size(92, 46);
+            this.Show_but.TabIndex = 10;
+            this.Show_but.Text = "展 示";
+            this.Show_but.UseVisualStyleBackColor = true;
+            this.Show_but.Click += new System.EventHandler(this.Show_but_Click);
+            // 
+            // Clear
+            // 
+            this.Clear.Location = new System.Drawing.Point(263, 416);
+            this.Clear.Name = "Clear";
+            this.Clear.Size = new System.Drawing.Size(92, 46);
+            this.Clear.TabIndex = 11;
+            this.Clear.Text = "清 空";
+            this.Clear.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 

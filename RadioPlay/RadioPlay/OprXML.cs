@@ -33,10 +33,11 @@ namespace RadioPlay
         }
         public void CreateXML(string fileName)
         {
-            try
-            {
-                bool file = System.IO.File.Exists(System.Environment.CurrentDirectory + "\\config1.xml");
+            XmlDocument xmlDocument = new XmlDocument();
+            xmlDocument.Load(fileName);
+            var root = xmlDocument.DocumentElement;
 
+<<<<<<< HEAD
                 if (file==false)
                 {
                     XmlDocument xmlDocument = new XmlDocument();
@@ -70,6 +71,8 @@ namespace RadioPlay
             //root.AppendChild(personXML);
 
             //XmlNodeList sd = xmlDocument.GetElementsByTagName("");
+=======
+>>>>>>> parent of 51c04c6... 2018-06-01
         }
 
         public void CreateXmlNode(XmlNode xn)
@@ -89,17 +92,5 @@ namespace RadioPlay
         {
 
         }
-
-        public void SelectXmlNode()
-        {
-            string fileName = System.Environment.CurrentDirectory + "\\config.xml";
-            XmlDataDocument config = new XmlDataDocument();
-            config.Load(fileName);
-
-
-
-        }
-            
-                               
     }
 }

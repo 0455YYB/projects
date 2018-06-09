@@ -31,11 +31,5 @@ namespace RadioPlay
             chidForm.Show();
             //this.Hide();
         }
-
-        private void Save_Click(object sender, EventArgs e)
-        {
-            OprXML oprXML = new OprXML();
-            oprXML.CreateXML("config1.xml");
-        }
     }
 }
